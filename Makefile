@@ -9,6 +9,7 @@ test:
 clean:
 	@echo "cleaning"
 	@rm -f main main.zip
+	@rm -f ${PROJECT_NAME}
 
 zip: clean build
 	@echo "zipping"
